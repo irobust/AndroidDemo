@@ -1,5 +1,6 @@
 package irobust.com.listview;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -56,7 +57,9 @@ public class GitHubReposActivity extends AppCompatActivity {
         lstRepos.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                
+                Intent intent = new Intent(GitHubReposActivity.this,
+                                            DetailActivity.class);
+                startActivity(intent);
             }
         });
     }
