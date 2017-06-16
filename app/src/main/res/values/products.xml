@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="products">
+        <item>Jacket 101</item>
+        <item>Jacket 102</item>
+        <item>Jacket 103</item>
+        <item>Pants 101</item>
+    </string-array>
+    <string-array name="images">
+        <item>jacket101.png</item>
+        <item>jacket102.png</item>
+        <item>jacket103.png</item>
+        <item>pants101.png</item>
+    </string-array>
+</resources>

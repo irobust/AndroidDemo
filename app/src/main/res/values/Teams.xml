@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string-array name="teams">
+       <item>Manchester United</item>
+       <item>Manchester City</item>
+       <item>Chelsea</item>
+       <item>Spur</item>
+       <item>Liverpool</item>
+   </string-array>
+</resources>
